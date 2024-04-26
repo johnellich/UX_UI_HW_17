@@ -6,7 +6,6 @@ body {
     margin: 0px 5%;
     display: grid;
     min-height: 500px;
-    height: 70vh;
     grid-template-rows: 25% 75%;
     grid-template-columns: 25% 25% 50%;
     grid-template-areas:
@@ -17,6 +16,7 @@ body {
   #featuredProduct {
     grid-area: featuredProduct;
     background-image: url("../images/IMG_5916.jpeg");
+    border-bottom: 5px solid #00c3ff;
   }
   
   #secondaryProduct {
@@ -24,7 +24,6 @@ body {
     background-image: url("../images/JE\ Logo.png");
     justify-content: space-around;
   }
-  
   
   #headline {
     background-color: rgba(0,0,0,0.8);
@@ -85,13 +84,15 @@ body {
   }
   #navigation {
     display: flex;
-    width: 50%;
+    width: 100%;
     align-items: right;
-    justify-content: space-evenly;
+    justify-content: right;
+    text-align: right;
   }
   #navigation p {
     cursor: pointer;
     text-decoration: none;
+    padding: 16px;
   }
   .highlight {
     color: #00c3ff;
